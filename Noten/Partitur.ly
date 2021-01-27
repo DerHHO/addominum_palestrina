@@ -26,11 +26,17 @@ tempTranspose = #(define-music-function (parser location music)
 
 \book {
   \bookOutputName "Partitur"
-  \paper {
+  \paper {  
+    
+    ragged-right = ##f
     ragged-last-bottom = ##f
-    ragged-bottom = ##f
-    %max-systems-per-page = 1
-  }
+    left-margin = 1.3\cm
+right-margin = 1.3\cm
+print-all-headers = ##f
+#(include-special-characters)
+
+	
+}
   \header {
     title = \titel
     subsubtitle = \untertitel

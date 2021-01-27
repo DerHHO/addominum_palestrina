@@ -195,7 +195,7 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {
   ad lin -- guam do -- lo -- sam?
 }
 
-tenorNotenAdDominumPalestrina=  \relative g {
+tenorNotenAdDominumPalestrina = \optionalTranspose \relative g {
   \globalAdDominumPalestrina
   \clef "G_8"
   R1*4 | % 5
@@ -253,7 +253,7 @@ tenorNotenAdDominumPalestrina=  \relative g {
   d1 ^\fermata \bar "|."
 }
 
-tenorTextAdDominumPalestrina =  \lyricmode {
+tenorTextAdDominumPalestrina = \lyricmode {
   Ad Do -- mi -- num 
   cum tri -- bu -- la -- rer cla -- ma -- vi, 
   ad Do -- mi -- num 
@@ -274,7 +274,7 @@ tenorTextAdDominumPalestrina =  \lyricmode {
   ad lin -- guam do -- lo -- sam?
 }
 
-bassNotenAdDominumPalestrina =  \relative d {
+bassNotenAdDominumPalestrina = \optionalTranspose \relative d {
   \globalAdDominumPalestrina
   \clef "bass"
   R1*6 \mBreak | % 7
